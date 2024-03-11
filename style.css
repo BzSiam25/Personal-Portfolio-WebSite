@@ -1,0 +1,282 @@
+body {
+    font-family: Fantasy;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-family: Fantasy;
+}
+
+header {
+    background-color: #85a8ba;
+    color: #000000;
+    padding: 20px;
+}
+Section h2{
+    margin-left: 10px;
+}
+
+.profile-image {
+    position: absolute;
+    right: 20px; /* Adjust as needed */
+    transform: translateY(-50%);
+    width: 400px; /* Adjust as needed */
+    height: 400px; /* Adjust as needed */
+    background-size: cover;
+    background-image: url('Image/2.jpg');
+    background-position: center;
+    border-radius: 150%; /* Makes the image round */
+    margin-top: 110px;
+
+}
+
+
+#education {
+    background-color: #c8d9db;
+    padding: 20px;
+    border: 10px;
+}    
+
+#education h2 {
+    color: #121111;
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin-left:1000px;
+    font-family: fantasy;
+    text-decoration:underline;
+}
+
+#education h4 {
+    color: #121111;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-left:1000px;
+    font-family: fantasy;
+}
+
+#education p {
+    color: #616161;
+    font-size: 16px;
+    line-height: 1.5;
+    line-break: auto;
+    margin-left:1000px;
+}
+
+
+nav ul {
+    list-style-type:armenian;
+    padding: 0;
+    
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #e8eef0fc;
+    text-decoration-style:none;
+  
+}
+/*
+#about-me section {
+    border: 1px solid black;
+        margin-top: 3px;
+        margin-bottom: 5px;
+        margin-right: 50px;
+        margin-left: 5px;
+        background-color: rgb(255, 255, 255);
+}
+*/
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+#home {
+    background-color: #c8d9db; /* Background color for the section */
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-right: 200px;
+     /* Padding around the content */
+}
+
+
+#home h4 {
+    color: #060101; /* Color of the description */
+    font-size: 20px; /* Font size of the description */
+    margin-right: 700px;
+    margin-bottom: 20px;
+    margin-left: 10px; /* Space between the greeting and description */
+    
+}
+
+
+.image {
+    float: left; /* Float image to the left */
+    width: 420px; /* Set width */
+    height: 300px; /* Set height */
+    object-fit: cover; /* Ensure the image covers the entire space */
+    margin-left: 400px; /* Add margin for spacing */
+    margin-top: 10px;
+}
+.btn-group {
+    display: inline-block; /* Display as inline block */
+    background-color:#c8d9db ;
+}
+.btn-group a {
+    display: inline-block; /* Display as inline block */
+    padding: 10px 20px; /* Add padding */
+    background-color: #104d51; /* Blue background color */
+    color: #fff; /* White text color */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth transition */
+    margin-left: 20px;   
+}
+
+.btn-group a:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+#experience {
+    background-color: #c8d9db;
+    padding: 20px;
+    border: 10px;
+}
+
+#experience h2 {
+    color: #121111;
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin-left:1000px;
+    font-family: fantasy;
+    text-decoration:underline;
+}
+
+#experience h5 {
+    color: #121111;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-left:1000px;
+    font-family: fantasy;
+}
+
+#experience p {
+    color: #616161;
+    font-size: 16px;
+    line-height: 1.5;
+    line-break: auto;
+    margin-left:1000px;
+}
+#projects {
+    padding: 20px;
+    background-color:#c8d9db; ; /* Add padding to the section for better spacing */
+}
+
+#projects h2 {
+    font-size: 24px; /* Set the font size for the heading */
+    margin-bottom: 10px; /* Add some bottom margin to the heading */
+}
+
+#projects p {
+    font-size: 16px; /* Set the font size for the paragraph */
+    line-height: 1.5; /* Set the line height for better readability */
+    margin-bottom: 30px;
+}
+
+.picture h1{
+    display: block; /* Ensure each image is displayed as a block element */
+    margin-bottom: 10px; /* Add some bottom margin between images */
+    max-width: 70px;
+    max-height: 50px; /* Ensure images don't exceed their container width */
+}
+#projects {
+    background-color: #c8d9db;
+    padding: 20px;
+    margin-bottom: 200px;
+}
+
+#projects h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#projects p {
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 25px;;
+}
+
+#projects a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: 100px;
+}
+
+#projects a:hover {
+    text-decoration: underline;
+}
+.exp-pic {
+    float: left; /* Float image to the left */
+    width: 420px; /* Set width */
+    height: 300px; /* Set height */
+    object-fit: cover; /* Ensure the image covers the entire space */
+    margin-left: 400px; /* Add margin for spacing */
+    margin-top: 10px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+h4 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1;
+}
+
+.social-icon a{
+    display:inline-block;
+    width:35px;
+    height:35px;
+    background:#000000;
+    border-radius: 50%;
+    margin-left: 20px;
+    text-align: center;
+    line-height: 35px;
+    transition: .3s;
+
+}
+.social-icon a:hover{
+    transform: translateY(-5px);
+}
+
+.social-icon a i{
+    color:#fff;
+}
+footer p {
+    color: white;
+    margin-top: 5px;
+    line-break: 1;
+}
+Section p{
+    margin-bottom: 50px;
+}
+
